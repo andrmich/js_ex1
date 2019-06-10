@@ -8,14 +8,14 @@ let loopCounter = 0;
 
 const VERSION = "0.12.2";
 
-var checkNumber = function(number) {
+let checkNumber = function(number) {
   return number % 2 === 0;
 };
 
-var myCustomString = "Super string!";
+let myCustomString = "Super string!";
 
-var loopVariable = 0;
+let loopVariable = 0;
 
-var stringAppender = function(string) {
+let stringAppender = function(string) {
   return string + " world!";
 };

@@ -1,6 +1,9 @@
 /**
  * Zaimportuj brakujące moduły za pomocą importów podanych w README.md
  */
+import { sum } from "./algebra.js";
+import * as alg from "./algebra.js";
+import algebra from "./algebra.js";
 
 test("adds 1 + 2 to equal 3", () => {
   expect(sum(1, 2)).toBe(3);
